@@ -1,3 +1,37 @@
+# docker.ui
+
+> This is a Visual management platform of docker and docker swarm cluster. | 这是一个docker和docker swarm集群的可视化管理平台。
+
+> https://github.com/ahviplc/docker.ui
+
+`Fork from |`
+
+> https://github.com/gohutool/docker.ui
+
+`Docker Hub`
+
+joinsunsoft/docker.ui - Docker Image | Docker Hub  
+> https://hub.docker.com/r/joinsunsoft/docker.ui
+
+# links
+
+```markdown
+The Go Programming Language
+https://golang.google.cn/
+
+go语言：环境变量GOPROXY和GO111MODULE设置
+https://blog.csdn.net/u012351051/article/details/115033956
+
+此项目需要安装gcc | cgo: C compiler “gcc“ not found: exec: “gcc“: executable file not found in %PATH%
+https://blog.csdn.net/weixin_42586723/article/details/121057647
+```
+
+# url
+
+`ginghan` | `admin` | 密码 `123456`
+
+> http://localhost:8999
+
 # boot4go-DockerUI
 A visual management tools for docker container and docker swarm cluster, You can browse and maintain the docker single node 
 or cluster node both worker and Manager.

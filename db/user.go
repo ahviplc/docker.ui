@@ -41,6 +41,13 @@ func InitAdminUser() {
 		if err != nil {
 			panic(err)
 		}
+
+		// add admin user
+		err2 := CreateUser("admin", "123456")
+
+		if err2 != nil {
+			panic(err2)
+		}
 	}
 }
 
