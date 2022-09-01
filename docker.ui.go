@@ -316,7 +316,10 @@ func startHttpServer(listener net.Listener) {
 	//go http.ListenAndServe("0.0.0.0:8887", nil)
 
 	// Start HTTP server.
-	Logger.Info("Starting HTTP server on %v", listener.Addr().String())
+	addrStr := listener.Addr().String()
+	Logger.Info("Starting HTTP server on %v", addrStr)
+	Logger.Info("Starting HTTP server on http://localhost:%v", addrStr[len(addrStr)-4:])
+
 	go func() {
 
 		s := &fasthttp.Server{

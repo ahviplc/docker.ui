@@ -16,3 +16,6 @@
 
 # IDEA
 .idea
+
+# log
+docker.ui.log

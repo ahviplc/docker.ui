@@ -41,10 +41,16 @@ func InitAdminUser() {
 		if err != nil {
 			panic(err)
 		}
+	}
 
+	c2, err2 := dbPlus.QueryCount("select count(1) from t_user where username=?", "admin")
+	if err2 != nil {
+		panic(err2)
+	}
+
+	if c2 == 0 {
 		// add admin user
 		err2 := CreateUser("admin", "123456")
-
 		if err2 != nil {
 			panic(err2)
 		}
