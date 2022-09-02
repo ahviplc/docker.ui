@@ -42,10 +42,6 @@ https://github.com/git/git
 
 > select * from t_user where username = 'admin'
 
-# boot4go-DockerUI
-A visual management tools for docker container and docker swarm cluster, You can browse and maintain the docker single node 
-or cluster node both worker and Manager.
-
 # Notes
 
 安装好 `git for Windows` 执行下面指令 即可编译
@@ -55,6 +51,10 @@ or cluster node both worker and Manager.
 启动项目 | 执行下面指令 即可启动
 
 > sh run.sh
+
+# boot4go-DockerUI
+A visual management tools for docker container and docker swarm cluster, You can browse and maintain the docker single node 
+or cluster node both worker and Manager.
 
 ![license](https://img.shields.io/badge/license-Apache--2.0-green.svg)
 
