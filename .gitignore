@@ -19,3 +19,6 @@
 
 # log
 docker.ui.log
+
+# app Releases | this name is【server】
+server

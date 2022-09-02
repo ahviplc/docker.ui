@@ -24,6 +24,12 @@ https://blog.csdn.net/u012351051/article/details/115033956
 
 此项目需要安装gcc 此教程可用 将下载压缩包解压 将其【x86_64-8.1.0-release-win32-seh-rt_v6-rev0】下bin 添加至win环境变量即可 | cgo: C compiler “gcc“ not found: exec: “gcc“: executable file not found in %PATH%
 https://blog.csdn.net/weixin_42586723/article/details/121057647
+
+Git for Windows
+https://gitforwindows.org/
+
+GitHub - git/git: Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.
+https://github.com/git/git
 ```
 
 # url
@@ -39,6 +45,16 @@ https://blog.csdn.net/weixin_42586723/article/details/121057647
 # boot4go-DockerUI
 A visual management tools for docker container and docker swarm cluster, You can browse and maintain the docker single node 
 or cluster node both worker and Manager.
+
+# Notes
+
+安装好 `git for Windows` 执行下面指令 即可编译
+
+> sh build.sh
+
+启动项目 | 执行下面指令 即可启动
+
+> sh run.sh
 
 ![license](https://img.shields.io/badge/license-Apache--2.0-green.svg)
 
